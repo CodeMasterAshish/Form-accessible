@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Left Side -->
+    <div class="form-section">
+
+        <label>Full Name</label>
+        <input type="text" placeholder="What should we call you?">
+
+        <label>Email</label>
+        <input type="email" class="error" value="john@doe.com">
+        <span class="error-text">Email is already taken</span>
+
+        <label>Enter Password</label>
+
+        <div class="password-box">
+            <input type="password" placeholder="xxxxxxxx">
+            <i class="fa-solid fa-eye"></i>
+        </div>
+
+        <label>Confirm Password</label>
+
+        <div class="password-box">
+            <input type="password" placeholder="xxxxxxxx">
+            <i class="fa-solid fa-eye"></i>
+        </div>
+
+        <button>Update Profile</button>
+
+    </div>
+
+    <!-- Right Side -->
+    <div class="right-section">
+
+        <div class="progress-wrapper">
+
+            <div class="progress-circle">
+                <span>65%</span>
+            </div>
+
+            <h2>Profile Completeness</h2>
+
+        </div>
+
+        <div class="task-card">
+
+            <p class="completed">Create Account</p>
+            <p class="completed">Update Roadmap Progress</p>
+            <p class="completed">Setup Public Profile</p>
+
+            <p>Complete your first project</p>
+            <p>Invite your Friends</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
